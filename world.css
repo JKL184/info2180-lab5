@@ -1,1 +1,58 @@
-/* Add your own styles */
+:root {
+	background: #a5a5ab;
+}
+header {
+	background-color: #002d5c;
+	display: flexbox;
+	justify-content: center;
+	text-align: center;
+	margin: 0px;
+	padding: 15px;
+	color: #a5a5ab;
+}
+
+#lookup {
+	margin-left: 10px;
+	padding: 15px;
+	background-color: #98fb98;
+}
+#citylookup {
+	margin-left: 10px;
+	padding: 15px;
+	background-color: #afeeee;
+}
+
+#controls {
+	padding: 15px;
+	justify-content: center;
+	text-align: center;
+	display: flexbox;
+}
+input {
+	width: 500px;
+	height: 40px;
+	border-radius: 5px;
+}
+.result table,
+th,
+td {
+    border: 2px solid;
+    background-color:#002d5c;
+    color: #a5a5ab;
+
+}
+table {
+	width: 80%;
+    border-collapse: collapse;
+    margin-left:10% ;
+    margin-right:10%:
+    
+}
+.result {
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+label {
+	font-size: 24px;
+}
